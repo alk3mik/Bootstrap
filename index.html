@@ -10,11 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <title>Workshop Responsive Design - Bootstrap</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- My CCS file -->
+    <link href="stylesheet.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,17 +25,49 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <h1>Navigation Bar</h1>
 <!--
-	Bootstrap requires a containing element to wrap site contents and house our grid system. You may choose one of two containers to use in your projects. Note that, due to padding and more, neither container is nestable. Use *.container* or *.container-fluid*for a responsive fixed width container.
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="images/socks_logo.png" id="logo">
+        </a>
+      </div>
+    </div>
+  </nav>
+-->
+
+<!--
+	Bootstrap requires a containing element to wrap site contents and house our grid system. You may choose one of two containers to use in your projects. Note that, due to padding and more, neither container is nestable. Use *.container* for a responsive fixed width container.
 -->
 
 	<div class="container-fluid">
 
-		<div class="row">
+<!--
+		<row>
+			<h1> SLIDER </h1>
+		</row>
+-->
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h2> Item #1 </h2>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h2> Item #2 </h2>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h2> Item #3 </h2>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h2> Item #4 </h2>
+				</div>
+
+			</div>
+
 		</div>
 
-	</div>    
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -41,4 +75,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
