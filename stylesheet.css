@@ -3,30 +3,33 @@
 */
 
 /* DOM root initialisation */
+/*
 html, body {
-    background-color: #000000;
+    background-color: #FFFF00;
     width: 100%;
     height: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-family: 'Open Sans', sans-serif;
 }
+*/
 
-h1 {
+h1, h2, h4, h5 {
     font-size: 26px;
     text-align: center;
     font-weight: bold;
-    color: cyan;
+    color: #000000;
 }
 
+/*
 p {
-/*    text-transform: uppercase;*/
+//    text-transform: uppercase;
     font-size: 26px;
     text-align: justify;
     font-weight: bold;
     color: yellow; 
 }
-
+*/
 /*
 *, *:after, *:before {
     box-sizing: border-border;
@@ -36,6 +39,10 @@ p {
 /*
     IDs declaration
 */
+
+#logo {
+    width: 20px;
+}
 
 #parentContainer {
   position: relative;
@@ -91,15 +98,6 @@ p {
 }
 
 /* Define the animation */
-
-@keyframes scroll-top {
-    0% {
-        transform: translateY(100%);
-    }
-    100% {
-        transform: translateY(-100%);
-    }
-}
 
 #doorA {
     margin: 0;
@@ -171,6 +169,11 @@ p {
 /*
     Classes declaration
 */
+
+.row {
+    background: #FFE4B5;
+    border: 3px solid black;
+}
 
 .halfDoor {
     display: flex;
