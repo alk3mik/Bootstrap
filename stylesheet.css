@@ -44,6 +44,10 @@ p {
     width: 20px;
 }
 
+#myCarousel {
+    height: 200px;
+}
+
 #parentContainer {
   position: relative;
   height: 100%;
@@ -171,7 +175,7 @@ p {
 */
 
 .row {
-    background: #FFE4B5;
+    background: #AAFFFF;
     border: 3px solid black;
 }
 
@@ -179,7 +183,7 @@ p {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    background: #0066CC;
+    background: #FF66CC;
     width: 135px;
     height: 570px;
     margin-top: 0%;
