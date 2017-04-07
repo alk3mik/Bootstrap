@@ -15,12 +15,18 @@ html, body {
 */
 
 h1, h2, h4, h5 {
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     font-weight: bold;
     color: #000000;
 }
 
+h3 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
 /*
 p {
 //    text-transform: uppercase;
@@ -73,9 +79,11 @@ p {
 /*
     Classes declaration
 */
+
 .img-responsive {
-    width: 100%;
+ 
 }
+
 /*
 .row {
     background: #AAFFFF;
