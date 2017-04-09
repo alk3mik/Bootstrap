@@ -33,7 +33,7 @@
 
     <div class="navbar-header">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="logo" class="logo">
+        <img src="images/logo.png" alt="logo" class="socksLogo">
       </a>
     </div>
 
@@ -45,6 +45,18 @@
     </ul>
   </div>
 </nav>
+
+<!--
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="images/socks_logo.png" id="logo">
+        </a>
+      </div>
+    </div>
+  </nav>
+-->
 
 <!--
 	Bootstrap requires a containing element to wrap site contents and house our grid system. You may choose one of two containers to use in your projects. Note that, due to padding and more, neither container is nestable. Use *.container* for a responsive fixed width container.
@@ -95,77 +107,32 @@
 <div class="container-fluid">
 		<div class="row">
 
-  				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					
+					<a href="#">
+                    	<img class="img-responsive" src="images/socks_1.png" alt="">
+                	</a>
 
-            <!-- Trigger the modal with a link <a></a> -->
-  					<a data-toggle="modal" href="#blue-socks">
-              <img class="img-responsive" src="images/socks_1.png" alt="">
-            </a>
-            
-            <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#blue-socks">
-              <h3>blue socks</h3>
-            </button>
-            
-            <!-- Modal -->
-              <div class="modal fade" id="blue-socks" role="dialog">
-                <div class="modal-dialog">
-                
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">blue socks</h4>
-                    </div>
-                    <div class="modal-body">
-                      <p>These are the most amazing blue socks ever!</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
+                	<h3>
+                    	<a href="#">bleu socks</a>
+                	</h3>
 
-  	         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
 
-  				</div>
+				</div>
 
-  				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <img class="img-responsive" src="images/socks_2.png" alt="" data-toggle="modal" data-target="#grey-socks">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<a href="#">
+                    	<img class="img-responsive" src="images/socks_2.png" alt="">
+                	</a>
 
-            <h3 class="socks-title" data-toggle="modal" data-target="#grey-socks">
-              grey socks
-            </h3>
+                	<h3>
+                    	<a href="#">grey socks</a>
+                	</h3>
 
-            <!-- Modal -->
-              <div class="modal fade" id="grey-socks" role="dialog">
-                <div class="modal-dialog">
-                
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">grey socks</h4>
-                    </div>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
 
-                    <div class="modal-body">
-                      <img class="modal-image" src="images/socks_2.png" alt="">
-                      <p class="modal-p">These are the most amazing grey socks ever!</p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-
-  	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-
-  				</div>
+				</div>
 
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<a href="#">
